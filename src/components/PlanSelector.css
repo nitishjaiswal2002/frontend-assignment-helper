@@ -1,0 +1,196 @@
+
+.plan-selector {
+    display: flex;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 650px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  
+  .sidebar-1 {
+    background-image: url('../assets/images/bg-sidebar-desktop.svg'); /* Adjust the path accordingly */
+    background-size: cover; /* Makes sure the background covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 30px; /* Reduced padding for tighter space */
+    color: white; /* Optional: Change text color for better visibility */
+    border-radius: 10px; /* Maintain rounded corners */
+    flex: 0.5; /* To ensure it takes available space */
+    margin-right: 40px;
+    
+}
+
+.sidebar-1 h4 {
+    margin: 5px 0; /* Reduced margins for less spacing */
+}
+
+.sidebar-1 p {
+    margin: 0px; /* Remove all margins for tighter spacing */
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 0px; /* Ensure no additional space at the bottom */
+}
+
+.step-circle {
+    height: 28px; /* Reduced size for a more compact look */
+    width: 28px; /* Reduced size for a more compact look */
+    border-radius: 50%; /* Maintain circle shape */
+    background-color: blue; /* Default color */
+    color: white; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-right: 5px; /* Reduced margin for tighter layout */
+    font-weight: bold;
+    font-size: 14px; /* Chosen size for better fitting */
+}
+
+.step-circle.active {
+    background-color: lightgray; /* Active color */
+}
+
+/* Container for the plan options */
+.plan-options {
+    flex: 2;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: space-between; /* Space between elements */
+    height: 100%; /* Fill the available height */
+}
+
+.plan-options h2 {
+    color: #333; /* Dark text color */
+    font-size: 20px; /* Header size */
+}
+
+/* Paragraph styling */
+.plan-options p {
+    color: #555; /* Slightly lighter text */
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Billing toggle style */
+.billing-toggle {
+    display: flex; /* Flex layout */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center the items */
+    margin-bottom: 20px; /* Space below toggle */
+    box-shadow: 0 2px 10px rgba(248,249,254); /* Shadow effect */
+}
+
+.billing-toggle span {
+    margin: 0 10px; /* Space between the elements */
+}
+
+/* Switch styling */
+.switch {
+    position: relative;
+    width: 80px;
+    height: 30px;
+}
+
+.switch input {
+    opacity: 0; /* Hide the checkbox */
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #01295c; /* Background color when inactive */
+    transition: .4s; /* Transition for the slider */
+    border-radius: 34px; /* Rounded ends */
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white; /* Slider ball */
+    transition: .4s;
+    border-radius: 50%; /* Circular shape */
+}
+
+/* Change colors when toggled */
+input:checked + .slider {
+    background-color: #4caf50; /* Active background */
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px); /* Move the slider ball */
+}
+
+/* Plan cards styling */
+.plans {
+    display: flex; /* Align the cards side by side */
+    justify-content: space-between; /* Space between cards */
+     width: 300px;
+}
+
+.plan-card {
+    background: #f9f9f9; /* Card background */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px; /* Padding inside cards */
+    text-align: center; /* Center text */
+    flex: 2; /* Allow cards to grow and fill space */
+    margin: 0 5px; /* Space between cards */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.plan-card h3 {
+    color: #333; /* Dark text */
+    margin: 10px 0; /* Space around heading */
+}
+
+.plan-card p {
+    color: #777; /* Lighter text for price */
+    font-size: 18px; /* Price font size */
+}
+
+.go-back1 {
+    background: none; /* No background */
+    color: #9b9ca0; /* Text color */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 15px; /* Space above the button */
+    align-self: flex-start; /* Align to the left */
+    text-decoration: none; /* Underline text */
+  }
+  
+  .go-back1:hover {
+    color: #1565c0; /* Darker shade on hover */
+  }
+
+/* Next step button */
+.next-step1 {
+    background-color: #03295a;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .next-step1:hover {
+    background-color: #480dea;
+  }

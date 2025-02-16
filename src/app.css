@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f8;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  .container {
+    display: flex;
+    padding: 10px;
+    max-height: 90vh;
+    max-width: 650px;
+    margin-top: 10px;
+    margin-left: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+  }
+  
+  
+  .sidebar {
+    background-image: url('../src/assets/images/bg-sidebar-desktop.svg'); /* Adjust the path accordingly */
+    background-size: cover; /* Makes sure the background covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 30px; /* Reduced padding for tighter space */
+    color: white; /* Optional: Change text color for better visibility */
+    border-radius: 10px; /* Maintain rounded corners */
+    flex: 0.75; /* To ensure it takes available space */
+    margin-right: 40px;
+    
+}
+
+.sidebar h4 {
+    margin: 5px 0; /* Reduced margins for less spacing */
+}
+
+.sidebar p {
+    margin: 0px; /* Remove all margins for tighter spacing */
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 0px; /* Ensure no additional space at the bottom */
+}
+
+.step-circle {
+    height: 28px; /* Reduced size for a more compact look */
+    width: 28px; /* Reduced size for a more compact look */
+    border-radius: 50%; /* Maintain circle shape */
+    background-color: blue; /* Default color */
+    color: white; 
+    display: inline-flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-right: 5px; /* Reduced margin for tighter layout */
+    font-weight: bold;
+    font-size: 14px; /* Chosen size for better fitting */
+}
+
+.step-circle.active {
+    background-color: lightgray; /* Active color */
+}
+
+
+.form-container {
+    flex: 2;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+  }
+  p{
+    padding: 0px;
+    margin: 0px;
+    font-size: small;
+  }
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  label {
+    margin: 5px 0 5px;
+    display: block;
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .error {
+    border-color: red;
+  }
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .next-button {
+    background-color: #03295a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 250px;
+  }
+  
+  .next-button:hover {
+    background-color: #480dea;
+  }

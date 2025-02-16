@@ -1,59 +1,70 @@
-# Multi-step form
+# Getting Started with Create React App
 
-![Design preview for the Multi-step form coding challenge](./design/desktop-preview.jpg)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Welcome! 👋
+## Available Scripts
 
-**To do this challenge, you need a good understanding of HTML, CSS and JavaScript.**
+In the project directory, you can run:
 
-## The challenge
+### `npm start`
 
-Your challenge is to build out this multi-step form and get it looking as close to the design as possible.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-Your users should be able to:
+### `npm test`
 
-- Complete each step of the sequence
-- Go back to a previous step to update their selections
-- See a summary of their selections on the final step and confirm their order
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- Receive form validation messages if:
-  - A field has been missed
-  - The email address is not formatted correctly
-  - A step is submitted, but no selection has been made
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Want some support on the challenge? [Email Bipul Sharma](bipul@simpleviralgames.com).
+### `npm run build`
 
-## Where to find everything
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-All the required assets for this project are in the `/assets` folder. The images are already exported for the correct screen size and optimized.
+### `npm run eject`
 
-We also include variable and static font files for the required fonts for this project. You can choose to either link to Google Fonts or use the local font files to host the fonts yourself. Note that we've removed the static font files for the font weights that aren't needed for this project.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## Building your project
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/).
-2. Configure your repository to publish your code to a web address.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Deploying your project
+## Learn More
 
-There are many ways to host your project for free. Our recommend hosts are:
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-## Submitting your solution
+### Code Splitting
 
-Submit your solution to sourav@simpleviralgames.com.
-The solution must contain the deployed link and the link to github repo.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-**Have fun building!** 🚀
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

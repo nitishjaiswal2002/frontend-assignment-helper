@@ -1,0 +1,92 @@
+/* src/Summary.css */
+
+.summary-container {
+    display: flex;
+    padding: 10px;
+    max-height: 80vh;
+    max-width: 650px;
+    margin-top: 50px;
+    margin-left: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+  .steps {
+    background-color: #4c6fff;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+  }
+  
+  .current-step {
+    font-weight: bold;
+    color: #cfe0ff;
+  }
+  
+  .summary-content {
+    margin-top: 5px;
+  }
+  .summary-content p {
+    margin-bottom: 10px;
+  }
+  .plan-summary {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .plan-summary p{
+    color:#ababb7;
+  }
+  .addons {
+    margin: 10px 0;
+  }
+  .addons p{
+    color: #ababb7;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .go-back3 {
+    background: none; /* No background */
+    color: #9b9ca0; /* Text color */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Font size */
+    margin-top: 15px; /* Space above the button */
+    align-self: flex-start; /* Align to the left */
+    text-decoration: none; /* Underline text */
+  }
+  
+  .go-back3:hover {
+    color: #1565c0; /* Darker shade on hover */
+  }
+
+/* Next step button */
+.confirm {
+    background-color: #483eff;
+    color: white;
+    border: none;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    padding-bottom: 30px;
+  }
+  
+  .confirm:hover {
+    background-color: #480dea;
+  }
