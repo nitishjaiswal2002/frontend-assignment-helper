@@ -194,3 +194,85 @@ input:checked + .slider:before {
   .next-step1:hover {
     background-color: #480dea;
   }
+
+  /* Base styles remain unchanged */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .plan-selector {
+        flex-direction: column; /* Stack sidebar and plan options vertically */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Adjust top margin */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .sidebar-1 {
+        margin-right: 0; /* Remove right margin */
+        padding: 20px; /* Adjust padding */
+        flex: 1; /* Allow sidebar to take full width */
+        background-image: url('../assets/images/bg-sidebar-desktop.svg');
+    }
+
+    .plan-options {
+        flex: 1; /* Allow plan options to take full width */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .plans {
+        flex-direction: column; /* Stack plan cards vertically */
+        align-items: center; /* Center align cards */
+        width: 100%; /* Full width */
+    }
+
+    .plan-card {
+        width: 90%; /* Make cards take most of the width */
+        margin: 10px 0; /* Space between cards */
+    }
+
+    .billing-toggle {
+        flex-direction: column; /* Stack toggle elements vertically */
+        align-items: center; /* Center align toggle */
+    }
+
+    .billing-toggle span {
+        margin: 5px 0; /* Adjust margin for better spacing */
+    }
+
+    .go-back1, .next-step1 {
+        width: 100%; /* Full width buttons */
+        margin-top: 10px; /* Space above buttons */
+    }
+}
+
+/* Additional media query for very small screens */
+@media (max-width: 480px) {
+    .step-circle {
+        height: 24px; /* Smaller circle for smaller screens */
+        width: 24px; /* Smaller circle for smaller screens */
+        font-size: 12px; /* Smaller font size */
+    }
+
+    .sidebar-1 h4 {
+        font-size: 16px; /* Smaller heading size */
+    }
+
+    .sidebar-1 p {
+        font-size: 14px; /* Smaller paragraph size */
+    }
+
+    .plan-options h2 {
+        font-size: 18px; /* Smaller header size */
+    }
+
+    .plan-card h3 {
+        font-size: 16px; /* Smaller heading size */
+    }
+
+    .plan-card p {
+        font-size: 14px; /* Smaller price size */
+    }
+
+    .next-step1 {
+        height: 40px; /* Adjust button height */
+    }
+}

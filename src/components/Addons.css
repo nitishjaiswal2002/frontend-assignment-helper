@@ -1,6 +1,8 @@
 body {
     background-color: #f5f7ff;
     font-family: 'Arial', sans-serif;
+    margin: 0px;
+    padding: 0px;
   }
   
   .container {
@@ -163,3 +165,86 @@ body {
   .next-step2:hover {
     background-color: #480dea;
   }
+
+  /* Base styles remain unchanged */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack sidebar and content vertically */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Adjust top margin */
+        padding: 10px; /* Adjust padding */
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    .sidebar {
+        margin-right: 0; /* Remove right margin */
+        padding: 20px; /* Adjust padding */
+        flex: 1; /* Allow sidebar to take full width */
+    }
+
+    .content {
+        padding: 10px; /* Adjust padding */
+    }
+
+    .checkbox-group {
+        max-width: 100%; /* Full width for checkbox group */
+        align-items: stretch; /* Stretch to fill available space */
+    }
+
+    .checkbox-group label {
+        width: 100%; /* Full width for labels */
+        margin: 0; /* Remove margin */
+    }
+
+    .go-back2, .next-step2 {
+        width: 100%; /* Full width buttons */
+        margin-top: 10px; /* Space above buttons */
+    }
+
+    .next-step2 {
+        margin-left: 0; /* Remove left margin */
+    }
+}
+
+/* Additional media query for very small screens */
+@media (max-width: 480px) {
+    .step-circle {
+        height: 24px; /* Smaller circle for smaller screens */
+        width: 24px; /* Smaller circle for smaller screens */
+        font-size: 12px; /* Smaller font size */
+    }
+
+    .sidebar h4 {
+        font-size: 18px; /* Smaller heading size */
+    }
+
+    .sidebar p {
+        font-size: 14px; /* Smaller paragraph size */
+    }
+
+    .content h2 {
+        font-size: 20px; /* Smaller header size */
+    }
+
+    .content p {
+        font-size: 14px; /* Smaller paragraph size */
+    }
+
+    .price {
+        font-size: 14px; /* Smaller price font size */
+    }
+
+    .description {
+        font-size: 0.75em; /* Smaller description font size */
+    }
+
+    .online {
+        font-size: 8px; /* Smaller font size for online text */
+    }
+
+    .next-step2 {
+        height: 40px; /* Adjust button height */
+    }
+}

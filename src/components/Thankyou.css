@@ -33,3 +33,44 @@ body {
     border-radius: 0 8px 8px 0;
   }
   
+/* Base styles remain unchanged */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .thank-you-container {
+        flex-direction: column; /* Stack steps and message vertically */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Adjust top margin */
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    .steps {
+        width: 100%; /* Full width for steps */
+        border-radius: 8px 8px 0 0; /* Adjust border radius for top corners */
+    }
+
+    .thank-you-message {
+        width: 100%; /* Full width for thank you message */
+        height: auto; /* Allow height to adjust based on content */
+        border-radius: 0 0 8px 8px; /* Adjust border radius for bottom corners */
+    }
+}
+
+/* Additional media query for very small screens */
+@media (max-width: 480px) {
+    .thank-you-container {
+        padding: 5px; /* Reduce padding */
+    }
+
+    .steps {
+        padding: 15px; /* Adjust padding */
+    }
+
+    .thank-you-message {
+        padding: 15px; /* Adjust padding */
+    }
+
+    .steps h3 {
+        font-size: 18px; /* Smaller font size for headings */
+    }
+}

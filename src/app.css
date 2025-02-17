@@ -108,3 +108,23 @@ body {
   .next-button:hover {
     background-color: #480dea;
   }
+
+  @media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Stack elements */
+        max-width: 90%; /* Reduce width */
+        margin: 0 auto; /* Centering */
+    }
+    
+
+    .next-button {
+        margin-left: 0; /* Center button on smaller screens */
+        display: block; /* Ensure button takes full width */
+        margin-top: 15px;
+        margin-left: 110px;
+    }
+    .sidebar {
+        background-image: url('../src/assets/images/bg-sidebar-mobile.svg'); /* Gradient Background */
+    }
+}
+  

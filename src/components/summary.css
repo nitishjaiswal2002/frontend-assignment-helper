@@ -90,3 +90,59 @@
   .confirm:hover {
     background-color: #480dea;
   }
+
+  /* Base styles remain unchanged */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .summary-container {
+        flex-direction: column; /* Stack elements vertically */
+        margin-left: 0; /* Remove left margin */
+        margin-top: 20px; /* Adjust top margin */
+        padding: 10px; /* Adjust padding */
+        max-width: 100%; /* Full width on smaller screens */
+    }
+
+    .plan-summary {
+        width: 100%; /* Full width for plan summary */
+        padding: 10px; /* Adjust padding */
+    }
+
+    .buttons {
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: stretch; /* Stretch buttons to full width */
+    }
+
+    .go-back3, .confirm {
+        width: 100%; /* Full width buttons */
+        margin-top: 10px; /* Space above buttons */
+    }
+}
+
+/* Additional media query for very small screens */
+@media (max-width: 480px) {
+    .summary-container {
+        padding: 5px; /* Reduce padding */
+    }
+
+    .steps {
+        padding: 10px; /* Adjust padding */
+    }
+
+    .summary-content p {
+        font-size: 14px; /* Smaller font size */
+    }
+
+    .plan-summary {
+        padding: 10px; /* Adjust padding */
+    }
+
+    .addons p {
+        font-size: 12px; /* Smaller font size for add-ons */
+    }
+
+    .go-back3, .confirm {
+        height: 40px; /* Adjust button height */
+        font-size: 14px; /* Smaller font size */
+    }
+}
